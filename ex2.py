@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from id3 import DecisionTreeID3
-
+st.markdown("<h1 style='text-align: center;'>Code X</h1>", unsafe_allow_html=True)
 st.title("ID3 Decision Tree Classifier")
 
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
